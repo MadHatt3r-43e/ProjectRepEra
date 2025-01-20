@@ -8,8 +8,8 @@
 I'm seeking activist-minded content creators to collaborate with me:
 - give input/feedback during the application development life cycle.  
 - Develop with the team an intimate understanding of high-level congressional activity.  
-- A law student, reader, or constitutionally-intrigued and energetic person to helps cognate the significance of legislation and augment the application dataset by using the application.  ie.  Tag a bill as a women's right's threatening piece of legislation.  
-- Social media creators that would use the tool as creators to say, as an example,  "HEY!  Mr. Cotton!  You SUCK HARD!" and ludly share this opinion and why you have it.  
+- A law student, reader, or constitutionally-intrigued and energetic person to help cognate the significance of legislation and augment the application dataset by using the application.  ie.  Tag a bill as a women's right's threatening piece of legislation.  
+- Social media creators that would use the tool as creators to say, as an example,  "HEY!  Mr. Cotton!  You SUCK HARD!" and loudly share this opinion and why you have it.  
 
 
 Please engage with content on TT or Bluesky to express interest.
