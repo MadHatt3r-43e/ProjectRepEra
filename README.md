@@ -62,37 +62,80 @@ Create a system allowing congress persons to know we see their activity; for us 
 - Brodcast to media and content followers the actions of legislators.  
 
 
-
-
-
-
-
-# Technical notes for Eric  
-
 ## Presidential Executive Orders  
 https://federalregister.gov/presidential-documents/executive-orders  
 
 ## Legislation  
-
 Example source:  
 https://www.congress.gov/bill/119th-congress/house-resolution/7  
 
 Resolution data:  
 https://www.congress.gov/119/bills/hres7/BILLS-119hres7ih.xml  
 
+## 117th Congress  
+Hres 22  Impeachment of Donald Trump.
+https://www.congress.gov/117/bills/hres24/BILLS-117hres24rds.xml 
+
+
+# Technical notes for Eric  
+
+## ETL execution stack location.  
+C:\ProjectRepEra_ETL  
+node index.js to execute job.  
+
+
 
 Legislation iterates multiple process states as it proceeds to the President.  
 Legislation Status  
 
-    - Introduced  
-	- Committee Consideration  
-	- Floor Consideration  
-	- Passed One Chamber  
-	- Passed Both Chambers  
+Introduced  
+Committee Consideration  
+Floor Consideration  
+Failed One Chamber  
+Passed One Chamber  
+Passed Both Chambers  
+Resolving Differences  
+To President  
+Became Law  
+	
+
+A == Create
+B == Copy Code.
+C == Change Code.
+D == Execute.  
+
+Data Extraction ethos: Week 1, iteration two completed on Thursday.  
+ETL to run on T, R of each week as Week N, iteration X.  
 
 
+- [x] First data extraction successful.  
+
+Regarding HRB, as of 01.23.2025, the ETL stack for grabbing HR bills is complete as only three states of the data are present.  
+
+Regarding SB, as of 01.23.2025, the ETL stack for grabbing Senate bills is complete as only five states of the data are present. 
+
+HRB.  
+    - A. B. C. D. Introduced  
+	- A. B. Committee Consideration  
+	- A. B. C. D. Floor Consideration 
+	- A. B. Failed One Chamber  
+	- A. B. C. D. Passed One Chamber  
+	- A. B. Passed Both Chambers  
+	- A. B. Resolving Differences  
+	- A. B. To President  
+	- A. B. Became Law  
+
+SB.  
+    - A. B. C. D. Introduced  
+	- A. B. Committee Consideration  
+	- A. B. C. D. Floor Consideration 
+	- A. B. Failed One Chamber  
+	- A. B. C. D. Passed One Chamber  
+	- A. B. C. D. Passed Both Chambers  
+	- A. B. Resolving Differences  
+	- A. B. C. D. To President  
+	- A. B. Became Law  
+	
 
 
-## 117th Congress  
-Hres 22  Impeachment of Donald Trump.
-https://www.congress.gov/117/bills/hres24/BILLS-117hres24rds.xml  
+ 
