@@ -10,7 +10,7 @@
 
 ## Sprint 3 Tasks:
 
-- [ ] Put ProjectRepEra_ETL into GitHub.  
+- [x] Put ProjectRepEra_ETL into GitHub.  
 - [ ] Run Stage 1 & 2 ETL.  
     - [ ] Tuesday.  
     - [ ] Thursday.  
