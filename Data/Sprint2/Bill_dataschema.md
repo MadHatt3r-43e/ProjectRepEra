@@ -8,15 +8,29 @@ HR Bill .csv file deconstruction.
  
 Column Number
 1					Legislation Number	
-2					URL	Congress	
-3					Title	
-4					Sponsor	
-5					Party of Sponsor	
-6					Date of Introduction	?
-7					Committees	
-8					Latest Action		A.  // un-pivot into collection
-9					Latest Action Date	A.  // These work as a tandem and are 'unique' or can be unique to the state.  
+2					URL	
+3					Congress	
+4					Title	
+5					Sponsor	
+6					Party of Sponsor	
+7					Date of Introduction	?
+8					Committees	
+9					Latest Action		A.  // un-pivot into collection
+10					Latest Action Date	A.  // These work as a tandem and are 'unique' or can be unique to the state.  
 		
+		
+{
+ "Cosponsors" : [
+ {
+   "Cosponsor" : "Mary",
+   "State" : "WA"
+ },
+ {
+   "Cosponsor" : "Joe",
+   "State" : "ID"
+ }
+ ]
+}		
 					// unpivoted into a collection.  
 					//Cosponsors exist between Latest Action Date to Number of Cosponsors.  
 		Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	Cosponsor	
